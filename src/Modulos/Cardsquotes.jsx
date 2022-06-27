@@ -1,7 +1,7 @@
 import { useState } from 'react';
-import quotes from '/Academlo/React/vite-project/json/quotes.json'
+import quotes from '../../json/quotes.json'
 import '../App.css'
-import colors from '/Academlo/React/vite-project/json/colors.json';
+import colors from '../../json/colors.json';
 const Cardsquotes = () => {
     const random = Math.floor(Math.random() * quotes.length)
     const [index, setIndex] = useState(random)
